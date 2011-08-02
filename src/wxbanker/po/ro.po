@@ -1,0 +1,830 @@
+# Romanian translation for wxbanker
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the wxbanker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wxbanker\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2010-02-27 01:56-0800\n"
+"PO-Revision-Date: 2010-03-21 05:19+0000\n"
+"Last-Translator: ValentinV <valentinverde@gmail.com>\n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
+"== 0) && (n != 0))) ? 2: 1));\n"
+"X-Launchpad-Export-Date: 2010-03-22 04:45+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: wxbanker/bankobjects/transaction.py:92
+#, python-format
+msgid "Transfer from %s"
+msgstr "Transfer de la %s"
+
+#: wxbanker/bankobjects/transaction.py:94
+#, python-format
+msgid "Transfer to %s"
+msgstr "Transfer la %s"
+
+#: wxbanker/bankobjects/recurringtransaction.py:147
+#: wxbanker/bankobjects/recurringtransaction.py:154
+#: wxbanker/newtransactionctrl.py:100
+#, python-format
+msgid "Daily"
+msgid_plural "Every %(num)d days"
+msgstr[0] "Daily"
+msgstr[1] "La fiecare %(num)d zile"
+msgstr[2] "La fiecare %(num)d zile"
+
+#: wxbanker/bankobjects/recurringtransaction.py:150
+msgid "Weekly on weekdays"
+msgstr "Saptamanal in zilele lucratoare"
+
+#: wxbanker/bankobjects/recurringtransaction.py:152
+msgid "Weekly on weekends"
+msgstr "Saptamanal in weekend"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Mondays"
+msgstr "Lunea"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Tuesdays"
+msgstr "Martea"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Wednesdays"
+msgstr "Miercurea"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Thursdays"
+msgstr "Joia"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Fridays"
+msgstr "Vinerea"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Saturdays"
+msgstr "Sambata"
+
+#: wxbanker/bankobjects/recurringtransaction.py:156
+msgid "Sundays"
+msgstr "Duminica"
+
+#: wxbanker/bankobjects/recurringtransaction.py:160
+#, python-format
+msgid "Weekly on %s"
+msgstr "Saptamanal pe %s"
+
+#: wxbanker/bankobjects/recurringtransaction.py:162
+#, python-format
+msgid "Every %(num)d weeks on %%s"
+msgstr "La fiecare %(num)d de saptamani pe %%s"
+
+#: wxbanker/bankobjects/recurringtransaction.py:169
+#, python-format
+msgid " and %s"
+msgstr " si %s"
+
+#: wxbanker/bankobjects/recurringtransaction.py:171
+#: wxbanker/newtransactionctrl.py:100
+#, python-format
+msgid "Monthly"
+msgid_plural "Every %(num)d months"
+msgstr[0] "Lunar"
+msgstr[1] "La fiercare %(num)d de luni"
+msgstr[2] "La fiercare %(num)d de luni"
+
+#: wxbanker/bankobjects/recurringtransaction.py:173
+#, python-format
+msgid "Annually"
+msgid_plural "Every %(num)d years"
+msgstr[0] "Annually"
+msgstr[1] "La fiecare %(num)d de ani"
+msgstr[2] "La fiecare %(num)d de ani"
+
+#: wxbanker/bankobjects/recurringtransaction.py:177
+#, python-format
+msgid "until %s"
+msgstr "pana la %s"
+
+#: wxbanker/bankobjects/recurringtransaction.py:194
+msgid "No description"
+msgstr "Fără descriere"
+
+#: wxbanker/accountlistctrl.py:45
+msgid "Accounts"
+msgstr "Conturi"
+
+#: wxbanker/accountlistctrl.py:56
+msgid "Add a new account"
+msgstr "Adaugă un cont nou"
+
+#: wxbanker/accountlistctrl.py:60
+msgid "Remove the selected account"
+msgstr "Șterge contul selectat"
+
+#: wxbanker/accountlistctrl.py:65
+msgid "Rename the selected account"
+msgstr "Redenumește contul selectat"
+
+#: wxbanker/accountlistctrl.py:70
+msgid "Configure the selected account"
+msgstr "Configurează contul selectat"
+
+#: wxbanker/accountlistctrl.py:87 wxbanker/menubar.py:63
+msgid "All accounts"
+msgstr "Toate conturile"
+
+#: wxbanker/accountlistctrl.py:423 wxbanker/accountlistctrl.py:525
+msgid "Sorry, an account by that name already exists."
+msgstr "Din păcate un cont cu acest nume există deja"
+
+#: wxbanker/accountlistctrl.py:425 wxbanker/accountlistctrl.py:527
+msgid "Account names cannot be blank."
+msgstr "Numele conturilor nu pot fi goale"
+
+#: wxbanker/accountlistctrl.py:459
+msgid "Account name"
+msgstr "Denumirea contului"
+
+#: wxbanker/accountlistctrl.py:498
+#, python-format
+msgid ""
+"This will permanently remove the account '%s' and all its transactions. "
+"Continue?"
+msgstr ""
+"Aceasta va șterge definitiv contul „%s” și toate tranzacțiile sale. "
+"Continuați?"
+
+#: wxbanker/accountlistctrl.py:499
+msgid "Warning"
+msgstr "Atenție"
+
+#: wxbanker/accountconfigdialog.py:32
+msgid ""
+"wxBanker can synchronize account balances online if you have an account with "
+"mint.com"
+msgstr ""
+"wxBanker poate sincroniza online balanța conturilor dacă dețineți un cont la "
+"mint.com"
+
+#: wxbanker/accountconfigdialog.py:40
+msgid "Username"
+msgstr "Nume utilizator:"
+
+#: wxbanker/accountconfigdialog.py:42
+msgid "Password"
+msgstr "Parola"
+
+#: wxbanker/accountconfigdialog.py:62
+msgid "Transaction details"
+msgstr "Detalii tranzacție"
+
+#: wxbanker/accountconfigdialog.py:103
+msgid "This account currently has no recurring transactions."
+msgstr "Acest cont nu are nicio tranzacție recurentă"
+
+#: wxbanker/accountconfigdialog.py:105
+msgid "Close"
+msgstr "Inchidere"
+
+#: wxbanker/accountconfigdialog.py:115 wxbanker/csvimportframe.py:186
+msgid "Save"
+msgstr "Salvează"
+
+#: wxbanker/accountconfigdialog.py:116
+msgid "Cancel"
+msgstr "Revocare"
+
+#: wxbanker/accountconfigdialog.py:136
+msgid "Recurring Transactions"
+msgstr "Tranzacții recurente"
+
+#: wxbanker/plots/cairopanel.py:72 wxbanker/plots/cairopanel.py:113
+#: wxbanker/plots/wxplotpanel.py:35 wxbanker/plots/wxplotpanel.py:42
+msgid "Balance"
+msgstr "Balanță"
+
+#: wxbanker/plots/cairopanel.py:76 wxbanker/plots/wxplotpanel.py:40
+msgid "Trend"
+msgstr "Tendință"
+
+#: wxbanker/plots/cairopanel.py:112 wxbanker/plots/wxplotpanel.py:42
+msgid "Time"
+msgstr "Timp"
+
+#: wxbanker/plots/wxplotpanel.py:42
+msgid "Total Balance Over Time"
+msgstr "Balanța totală în timp"
+
+#: wxbanker/plots/plotfactory.py:51
+#, python-format
+msgid "To use '%s' plotting library, install following python modules: %s."
+msgstr ""
+"Pentru a folosi '%s' plotting library , instalati umatoarele module phython "
+"%s"
+
+#: wxbanker/messagepanel.py:47
+msgid "Dismiss"
+msgstr "Închide"
+
+#: wxbanker/summarytab.py:42
+msgid "From"
+msgstr "De la"
+
+#: wxbanker/summarytab.py:46 wxbanker/newtransactionctrl.py:31
+msgid "to"
+msgstr "la"
+
+#: wxbanker/summarytab.py:50
+msgid "Trend Degree"
+msgstr "Grad Trend"
+
+#: wxbanker/managetab.py:43
+msgid "Show Calculator"
+msgstr "Arată calculator"
+
+#: wxbanker/managetab.py:43
+msgid "Hide Calculator"
+msgstr "Ascunde calculator"
+
+#: wxbanker/managetab.py:97
+msgid "Transactions"
+msgstr "Tranzacții"
+
+#: wxbanker/managetab.py:109
+msgid "Summary"
+msgstr "Sumar"
+
+#: wxbanker/transactionolv.py:48
+msgid "No transactions entered."
+msgstr "Nicio tranzacție introdusă."
+
+#: wxbanker/transactionolv.py:60 wxbanker/bankcontrols.py:52
+#: wxbanker/searchctrl.py:41 wxbanker/csvimportframe.py:98
+msgid "Date"
+msgstr "Dată"
+
+#: wxbanker/transactionolv.py:61 wxbanker/newtransactionctrl.py:248
+#: wxbanker/searchctrl.py:41 wxbanker/csvimportframe.py:112
+msgid "Description"
+msgstr "Descriere"
+
+#: wxbanker/transactionolv.py:62 wxbanker/newtransactionctrl.py:249
+#: wxbanker/searchctrl.py:41 wxbanker/csvimportframe.py:106
+msgid "Amount"
+msgstr "Sumă"
+
+#: wxbanker/transactionolv.py:63
+msgid "Total"
+msgstr "Total"
+
+#: wxbanker/transactionolv.py:204
+#, python-format
+msgid "Send %s to calculator"
+msgstr "Trimite %s la calculator"
+
+#: wxbanker/transactionolv.py:205
+#, python-format
+msgid "Add %s to calculator"
+msgstr "Adaugă %s la calculator"
+
+#: wxbanker/transactionolv.py:206
+#, python-format
+msgid "Subtract %s from calculator"
+msgstr "Scade %s din calculator"
+
+#: wxbanker/transactionolv.py:218
+msgid "Remove this transaction"
+msgstr "Șterge această tranzacție"
+
+#: wxbanker/transactionolv.py:219
+msgid "Move this transaction to account"
+msgstr "Mută această tranzacție în cont"
+
+#: wxbanker/transactionolv.py:221
+#, python-format
+msgid "Remove these %i transactions"
+msgstr "Șterge aceste %i tranzacții"
+
+#: wxbanker/transactionolv.py:222
+#, python-format
+msgid "Move these %i transactions to account"
+msgstr "Mută aceste %i tranzacții în cont"
+
+#: wxbanker/newtransactionctrl.py:31
+msgid "from"
+msgstr "de la"
+
+#: wxbanker/newtransactionctrl.py:35 wxbanker/newtransactionctrl.py:258
+msgid "Transfer"
+msgstr "Transfer"
+
+#: wxbanker/newtransactionctrl.py:100
+msgid "Weekly"
+msgstr "Săptămânal"
+
+#: wxbanker/newtransactionctrl.py:100
+msgid "Yearly"
+msgstr "Anual"
+
+#: wxbanker/newtransactionctrl.py:109
+msgid "Never"
+msgstr "Niciodată"
+
+#: wxbanker/newtransactionctrl.py:130
+msgid "every"
+msgstr "la fiecare"
+
+#: wxbanker/newtransactionctrl.py:135
+msgid "Ends:"
+msgstr "Se termină:"
+
+#: wxbanker/newtransactionctrl.py:140
+msgid "Repeats:"
+msgstr "Se repetă:"
+
+#: wxbanker/newtransactionctrl.py:169
+msgid "day"
+msgid_plural "days"
+msgstr[0] "zi"
+msgstr[1] "zile"
+msgstr[2] "de zile"
+
+#: wxbanker/newtransactionctrl.py:171
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] "săptămână"
+msgstr[1] "săptămâni"
+msgstr[2] "de săptămâni"
+
+#: wxbanker/newtransactionctrl.py:174
+msgid "month"
+msgid_plural "months"
+msgstr[0] "lună"
+msgstr[1] "luni"
+msgstr[2] "de luni"
+
+#: wxbanker/newtransactionctrl.py:176
+msgid "year"
+msgid_plural "years"
+msgstr[0] "an"
+msgstr[1] "ani"
+msgstr[2] "de ani"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Mon"
+msgstr "Lun"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Tue"
+msgstr "Mar"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Wed"
+msgstr "Mie"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Thu"
+msgstr "Joi"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Fri"
+msgstr "Vin"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Sat"
+msgstr "Sâm"
+
+#: wxbanker/newtransactionctrl.py:214
+msgid "Sun"
+msgstr "Dum"
+
+#: wxbanker/newtransactionctrl.py:221
+msgid "Repeats on days:"
+msgstr "Se repetă în zilele:"
+
+#: wxbanker/newtransactionctrl.py:244
+msgid "Starts:"
+msgstr "Începe:"
+
+#: wxbanker/newtransactionctrl.py:253
+msgid "Enter this transaction"
+msgstr "Introdu această tranzacție"
+
+#: wxbanker/newtransactionctrl.py:262
+msgid "Recurring"
+msgstr "Recurentă"
+
+#: wxbanker/newtransactionctrl.py:375
+msgid "No amount entered in the 'Amount' field."
+msgstr "Nicio sumă introdusă în câmpul „Sumă”."
+
+#: wxbanker/newtransactionctrl.py:377
+#, python-format
+msgid "'%s' is not a valid amount."
+msgstr "„%s” nu este o sumă validă."
+
+#: wxbanker/newtransactionctrl.py:380
+msgid "Please enter a number such as 12.34 or -20."
+msgstr "Introduceți un număr cum ar fi 12.34 sau -20"
+
+#: wxbanker/newtransactionctrl.py:381
+msgid "Invalid Transaction Amount"
+msgstr "Sumă invalidă pentru tranzacție"
+
+#: wxbanker/newtransactionctrl.py:392
+msgid "Please select an account and then try again."
+msgstr "Alegeți un cont și încercați din nou"
+
+#: wxbanker/newtransactionctrl.py:393 wxbanker/newtransactionctrl.py:421
+msgid "No account selected"
+msgstr "Niciun cont selectat"
+
+#: wxbanker/newtransactionctrl.py:406
+msgid "A search is currently active."
+msgstr "O căutare este în curs"
+
+#: wxbanker/newtransactionctrl.py:406
+#, python-format
+msgid ""
+"Would you like to clear the current search and make this transaction in "
+"\"%s\"?"
+msgstr ""
+"Ati dori sa stergeti cautarea curenta si sa faceti tranzactia in \"%s\"?"
+
+#: wxbanker/newtransactionctrl.py:407
+msgid "Clear search?"
+msgstr "Ștergeți căutarea?"
+
+#: wxbanker/newtransactionctrl.py:420
+msgid ""
+"This transaction is marked as a transfer. Please select the transfer account."
+msgstr ""
+"Această tranzacție este marcată drept un transfer. Alegeți contul destinație."
+
+#: wxbanker/newtransactionctrl.py:453
+msgid ""
+"If this box is checked when adding a transaction, you will be prompted for "
+"the account to use as the source of the transfer."
+msgstr ""
+"Daca aceasta casuta este bifata vi se va solicita contul pe care sa il "
+"folositi ca sursa pentru transfer"
+
+#: wxbanker/newtransactionctrl.py:454
+msgid ""
+"For example, checking this box and entering a transaction of $50 into this "
+"account will also subtract $50 from the account that you choose as the "
+"source."
+msgstr ""
+"De exemplu, daca bifati aceasta casuta si introduceti o tranzactie de 50RON "
+"in acest cont , va substrade deasemenea 50RON din contul pe care il alegeti "
+"ca sursa."
+
+#: wxbanker/menubar.py:53
+msgid "Auto-save"
+msgstr "Salvează automat"
+
+#: wxbanker/menubar.py:53
+msgid "Automatically save changes"
+msgstr "Salvează modificările automat"
+
+#: wxbanker/menubar.py:55
+msgid "Import from CSV"
+msgstr "Importă din CSV"
+
+#: wxbanker/menubar.py:55
+msgid "Import transactions from a CSV file"
+msgstr "Importă tranzacțiile dintr-un fișier CSV"
+
+#: wxbanker/menubar.py:61
+msgid "Previous account"
+msgstr "Contul precedent"
+
+#: wxbanker/menubar.py:62
+msgid "Next account"
+msgstr "Contul urmator"
+
+#: wxbanker/menubar.py:65
+msgid "Show zero-balance accounts"
+msgstr "Arata conturile cu balans zero"
+
+#: wxbanker/menubar.py:65
+msgid ""
+"When disabled, accounts with a balance of $0.00 will be hidden from the list"
+msgstr ""
+"Cand dezactiva , conturile cu balans de 0.00 vor fi ascunse din lista"
+
+#: wxbanker/menubar.py:74
+msgid "&Currency"
+msgstr "Valută"
+
+#: wxbanker/menubar.py:74
+msgid "Select currency to display"
+msgstr "Selectați valuta pentru afișare"
+
+#: wxbanker/menubar.py:83
+msgid "Request a Currency"
+msgstr "Solicitați o valută"
+
+#: wxbanker/menubar.py:90
+msgid "Integrate with Mint.com"
+msgstr "Integrare cu Mint.com"
+
+#: wxbanker/menubar.py:90
+msgid "Sync account balances with an existing Mint.com account"
+msgstr "Sincronizeaza balansul cuntului cu un cont deja existent la Mint.com"
+
+#: wxbanker/menubar.py:96
+msgid "View &FAQs"
+msgstr "Vedeți &FAQ-uri"
+
+#: wxbanker/menubar.py:96
+msgid "View Frequently Asked Questions online"
+msgstr "Vedeți online întrebările puse frecvent"
+
+#: wxbanker/menubar.py:101
+msgid "Ask a &Question"
+msgstr "Puneți o întrebare"
+
+#: wxbanker/menubar.py:101
+msgid "Ask a question online"
+msgstr "Puneți online o întrebare"
+
+#: wxbanker/menubar.py:106
+msgid "&Report a Bug"
+msgstr "Raportați o eroare"
+
+#: wxbanker/menubar.py:106
+msgid "Report a bug to the developer online"
+msgstr "Raportați online o eroare către dezvoltatori"
+
+#: wxbanker/menubar.py:111
+msgid "Request a Fea&ture"
+msgstr "Solicitați o funcționalitate"
+
+#: wxbanker/menubar.py:111
+msgid "Request a new feature to be implemented"
+msgstr "Solicitați o funcționalitate nouă care să fie implementată"
+
+#: wxbanker/menubar.py:116
+msgid "Tran&slate wxBanker"
+msgstr "Traduceți wxBanker"
+
+#: wxbanker/menubar.py:116
+msgid "Translate wxBanker to another language"
+msgstr "Traduceți wxBanker într-o altă limbă"
+
+#: wxbanker/menubar.py:123
+msgid "&About"
+msgstr "&Despre"
+
+#: wxbanker/menubar.py:123
+msgid "More information about wxBanker"
+msgstr "Mai multe informații despre wxBanker"
+
+#: wxbanker/menubar.py:126
+msgid "&File"
+msgstr "&Fișier"
+
+#: wxbanker/menubar.py:127
+msgid "&View"
+msgstr "&Vizualizare"
+
+#: wxbanker/menubar.py:128
+msgid "&Settings"
+msgstr "&Setări"
+
+#: wxbanker/menubar.py:129
+msgid "&Help"
+msgstr "Ajutor"
+
+#: wxbanker/menubar.py:227
+msgid "Copyright"
+msgstr "Drepturi de autor"
+
+#: wxbanker/menubar.py:228
+msgid "A lightweight personal finance management application."
+msgstr "Un manager simplificat de finanțe personale."
+
+#: wxbanker/main.py:79
+#, python-format
+msgid ""
+"The recurring transaction \"%(description)s\" has %(num)i transactions ready "
+"for %(amount)s on %(datelist)s."
+msgstr ""
+"Tranzacția recurentă „%(description)s” are %(num)i tranzacții pregătite "
+"pentru %(amount)s pe %(datelist)s."
+
+#: wxbanker/main.py:84
+#, python-format
+msgid ""
+"%(num)i recurring transactions have a total of %(totalnum)i transactions "
+"ready."
+msgstr ""
+"%(num)i tranzactii recursive au un total de  %(totalnum)i tranzactii "
+"pregatite."
+
+#: wxbanker/main.py:95 wxbanker/csvimportframe.py:151
+#: wxbanker/csvimportframe.py:153
+msgid "Preview"
+msgstr "Previzualizează"
+
+#: wxbanker/main.py:104
+msgid "Perform"
+msgstr "Efectuează"
+
+#: wxbanker/main.py:120
+msgid "Recurring transaction successfully added."
+msgstr "Tranzacție recurentă adăugată cu succes."
+
+#: wxbanker/main.py:122
+#, python-format
+msgid "The first transaction will occur on %(date)s"
+msgstr "Prima tranzacție va avea loc pe %(date)s"
+
+#: wxbanker/main.py:186
+msgid "It looks like this is your first time using wxBanker!"
+msgstr "Se pare că aceasta este prima oară cănd folosiți wxBanker!"
+
+#: wxbanker/main.py:187
+msgid ""
+"To get started, add an account using the account control in the top left "
+"corner."
+msgstr ""
+"Pentru a începe, adăugați un cont folosind panoul de control al conturilor, "
+"din colțul stânga sus."
+
+#: wxbanker/main.py:188
+msgid ""
+"The buttons in the account control allow you to add, remove, and rename an "
+"account, respectively."
+msgstr ""
+"Butoanele din controlul counturilor vă permit să adăugați, să ștergeți și să "
+"redenumiți un cont."
+
+#: wxbanker/main.py:189
+msgid ""
+"Once you have created an account you can add transactions to it (such as "
+"your initial balance) using the controls below the grid on the bottom right."
+msgstr ""
+"Odată ce ați creat un cont, îi puteți adăuga tranzații (cum ar fi balanța "
+"inițială) utilizând controalele din dreapta jos, de sub grilă."
+
+#: wxbanker/main.py:190
+msgid "Have fun!"
+msgstr "Distrați-vă!"
+
+#: wxbanker/main.py:192
+msgid "Welcome!"
+msgstr "Bine ați venit!"
+
+#: wxbanker/main.py:200
+msgid "Save changes?"
+msgstr "Salvați modificările?"
+
+#: wxbanker/main.py:201
+msgid ""
+"You have made changes since the last save. Would you like to save before "
+"exiting?"
+msgstr ""
+"Ați efectuat modificări de la ultima salvare. Doriți să le salvați înainte "
+"de a ieși?"
+
+#: wxbanker/main.py:202
+msgid ""
+"Note that enabling auto-save from the File menu will eliminate the need for "
+"manual saving."
+msgstr ""
+"Rețineți că, activând salvarea automată din meniul Fișier, nu va mai fi "
+"necesară salvarea manuală."
+
+#: wxbanker/searchctrl.py:36
+msgid "Search transactions"
+msgstr "Caută tranzacții"
+
+#: wxbanker/searchctrl.py:39
+msgid "More options"
+msgstr "Mai multe opțiuni"
+
+#: wxbanker/searchctrl.py:39
+msgid "Less options"
+msgstr "Mai puține opțiuni"
+
+#: wxbanker/searchctrl.py:50
+msgid "Match: "
+msgstr "Potrivește: "
+
+#: wxbanker/searchctrl.py:94
+msgid "Show advanced search options"
+msgstr "Afișează opțiuni avansate de căutare"
+
+#: wxbanker/searchctrl.py:96
+msgid "Hide advanced search options"
+msgstr "Ascunde opțiuni avansate de căutare"
+
+#: wxbanker/csvimportframe.py:28
+msgid "CSV import"
+msgstr "Import CSV"
+
+#: wxbanker/csvimportframe.py:62
+msgid "Target account"
+msgstr "Cont destinație"
+
+#: wxbanker/csvimportframe.py:77 wxbanker/csvimportframe.py:79
+msgid "Import"
+msgstr "Importă"
+
+#: wxbanker/csvimportframe.py:89
+msgid "CSV columns mapping"
+msgstr "Indentificare coloane CSV"
+
+#: wxbanker/csvimportframe.py:101
+msgid "Date format"
+msgstr "Format dată"
+
+#: wxbanker/csvimportframe.py:108
+msgid "Decimal separator"
+msgstr "Separator zecimale"
+
+#: wxbanker/csvimportframe.py:119
+msgid "CSV file settings"
+msgstr "Setări fișier CSV"
+
+#: wxbanker/csvimportframe.py:128
+msgid "Skip first line"
+msgstr "Sari prima linie"
+
+#: wxbanker/csvimportframe.py:131
+msgid "Encoding"
+msgstr "Codificare"
+
+#: wxbanker/csvimportframe.py:135
+msgid "Column delimiter"
+msgstr "Delimitator coloane"
+
+#: wxbanker/csvimportframe.py:146
+msgid "File to import"
+msgstr "Fişier de importat"
+
+#: wxbanker/csvimportframe.py:166
+msgid "CSV profiles"
+msgstr "Profiluri CSV"
+
+#: wxbanker/csvimportframe.py:171
+msgid "Python simplejson library is needed for csv profile loading/saving."
+msgstr ""
+"Biblioteca Python simplejson este necesară epntru a încărca/salva profile "
+"CSV."
+
+#: wxbanker/csvimportframe.py:181
+msgid "Load"
+msgstr "Încarcă"
+
+#: wxbanker/csvimportframe.py:191
+msgid "Delete"
+msgstr "Șterge"
+
+#: wxbanker/csvimportframe.py:245
+#, python-format
+msgid "The file encoding does not seem to be '%s'."
+msgstr "Codificarea fișierului pare să nu fie „%s”."
+
+#: wxbanker/csvimportframe.py:252
+msgid "An error ocurred during the csv file import."
+msgstr "O eroare a avut loc la importul fișierului CSV."
+
+#: wxbanker/csvimportframe.py:253
+msgid "CSV import error"
+msgstr "Eroare la importarea fișierului CSV"
+
+#: wxbanker/csvimportframe.py:303
+#, python-format
+msgid "Profile with the name '%s' exists already. Overwrite it ?"
+msgstr "Un profil cu numele „%s” există deja. Îl suprascrieți?"
+
+#: wxbanker/csvimportframe.py:304
+msgid "Overwrite profile ?"
+msgstr "Suprascrieți profilul?"
+
+#: wxbanker/csvimportframe.py:318
+msgid "Select file and click \"Preview\""
+msgstr "Selectați fișierul și apăsați \"Previzualizează\""
+
+#: wxbanker/recurringsummaryrow.py:45
+msgid "Summary:"
+msgstr "Sumar:"
+
+#: wxbanker/currencies.py:277
+msgid "detected"
+msgstr "detectat"
+
+#: wxbanker/currconvert.py:59
+#, python-format
+msgid "No exchange rate for currency \"%s\""
+msgstr "Nici o rată de schimb pentru valuta \"%s\""

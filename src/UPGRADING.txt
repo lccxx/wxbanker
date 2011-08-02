@@ -1,0 +1,21 @@
+== UPGRADING ==
+Upgrading wxBanker to a new version is very easy. The most important
+part is ensuring your bank.db file, which holds all of your accounts
+and transactions, is in the right place. If you are upgrading from
+version 0.4 or later, this is handled automatically for you. If not,
+move it manually by either:
+
+*) On Linux/OSX, move bank.db to ~/.local/share/wxbanker/bank.db, creating
+   any folders as necessary. This is the recommended approach and will
+   save you from needing to move it again in future releases.
+   
+ OR
+
+*) Copy the bank.db file from the old release into the new release
+   folder. Then run wxbanker.py from the new release. Be sure to
+   update any shortcuts you may have created to reflect the new
+   location. It is safe to delete the old directory if you like.
+
+
+Thanks for using wxBanker. If you have any problems, questions, or
+comments, check out wxbanker.org or email me at mrooney@ubuntu.com!
